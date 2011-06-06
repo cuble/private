@@ -3,8 +3,10 @@
       $ sudo updatedb
     find a file xxx: 
       $ locate xxx
-    find
-
+    find a folder while only show the folder itself
+      $ locate -b xxx
+      $ locate -b "\xxx"
+     note: -b means only basename match the pattern.
 
 2. find
 
