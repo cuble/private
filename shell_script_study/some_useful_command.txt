@@ -9,7 +9,8 @@
      note: -b means only basename match the pattern.
 
 2. find
-
+    find file changed in 5 minutes:
+     find . -mmin -5
 
 3. grep
 
