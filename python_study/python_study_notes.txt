@@ -1,0 +1,4 @@
+
+references:
+http://docs.python.org/release/2.6.8/tutorial/index.html
+
