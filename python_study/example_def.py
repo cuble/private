@@ -34,7 +34,21 @@ def param_unpack():
   print "argsd is" + str(argsd)
   print "And fib_core(**argsd) is " + str(fib_core(**argsd))
 
+def arbit_param(*param):
+    '''To test arbitary param function'''
+    idx("Try arbitary param: arbit_param(*p)")
+    print "param is",
+    print param
+    i=0
+    l=len(param)
+    while i < l:
+      print "param " + str(i) + " is",
+      print param[i]
+      i = i + 1
 
 
 fib(10)
 param_unpack()
+t=1,2,3,4
+arbit_param(*t)
+
