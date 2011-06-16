@@ -139,7 +139,14 @@ Useful Link: http://docs.python.org/
     7)Declaration: handle_decl
     8)Text data: handle_data
 
-
+14 scopes and namespaces
+    1) call a function will create a local namespace for it and will be removed after the function terminated.
+    2) During runtime, there are at least three nested scopes whose namespaces are directly accessible:
+        the innermost scope, which is searched first, contains the local names
+        the scopes of any enclosing functions, which are searched starting with the nearest enclosing scope, contains non-local, but also non-global names
+        the next-to-last scope contains the current module’s global names
+        the outermost scope (searched last) is the namespace containing built-in names
+    3) the "global" can be used to to indicate the particular variable live in the global scope.
 
 references:
 http://www.diveintopython.net/
