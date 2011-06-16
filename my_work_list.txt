@@ -1,3 +1,7 @@
+Python study
+  -* error handling
+  -* list folder and file operation
+
 * RNC196 CS7 startup performance testing
 
 Check if the file commit in Windows break the file link in linux in my dadapa projec  --Done
