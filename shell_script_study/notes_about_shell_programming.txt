@@ -1,0 +1,44 @@
+1. IO redirect:
+	Three files for each program open in a shell: 0, Standard in; 1, Standard out; 2, Standard error
+	Redirect stdin: some-command < /path/to/some/file
+	Redirect stdout: some-command > /path/to/some/file
+	Redirect stderr: some-command 2> /path/to/some/file
+	<file	means open a file for reading and associate with stdin.
+	<<token Means use the current input stream as stdin for the program until token is seen.
+	>file	means open a file for writing and truncate it and associate it with stdout
+	>>file means open a file for writing and seek to the end and associate it with stdout
+	n>&m means redirect FD n to the same places as FD m. Eg, 2>&1 means send send stderr to the same place that stdout is goint to.
+
+2. pipe: output_to_stdoutput_cmd | accept_stdin_input_command  
+	Useful command: cut, sort, uniq, grep, less, more, tee, wc, tr, col, join, paste, expand, split, xargs...
+	Reference: linux.vbird.org/linux_basic/0320bash.php#pipe
+
+3. if:
+   if ...; then
+      ... 
+   elif ...; then
+      ...
+   else 
+      ...
+   fi
+	[ -f "somefile" ] : return if somefile is a file
+	[ -d "somedir" ] : return if somedir is a directory
+	[ -x "/bin/ls" ] : return if /bin/ls exist and executable
+	[ -n "$var" ] : return if the variable var set a value
+	and -r, -w, -x check if the file readable, writable, executable.
+	[ "$a" = "$b" ] : return if $a the same with $b
+	NOTE: The blankspace after '[' and before ']' is must. And ' ' before after '=' is must.
+	Reference: www.cnblogs.com/feisky/archive/2010/03/31/1701560.html
+
+4. && and ||
+	condition_expression && do_one_thing, means do one thing when the condition is true.
+	condition_expression || do_one_thing, means do one thing when the condition is false.
+
+5. $1, the first argument transferred to the script. For example: script 123.txt. $1 is 123.txt
+   $*, all the arguments transferred to th escript.
+
+6. '' and \ can be used to print reserved keyword.
+
+
+
+

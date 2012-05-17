@@ -1,0 +1,24 @@
+#!/bin/sh
+num=1
+echo "$num. try if"
+if [ -f "hello" ]; then
+  echo "hello is a file"
+else
+  echo "hello is not a file"
+fi
+
+num=$[$num+1]
+echo "$num. Try && "
+[ -f "hello" ] && echo "hello is a file"
+
+num=$[$num+1]
+echo "$num.Try ||"
+[ -f "hello" ] || echo "hello is not a file"
+
+num=$[$num+1]
+echo "$num.Try ="
+if [ $SHELL = "/bin/bash" ]; then
+  echo "it's bash"
+else 
+  echo "it's $SHELL"
+fi

@@ -1,0 +1,15 @@
+1. ctrl+mouse click to start a new session of the program.
+
+2. alt+F2, enter the name of the program to start a new program, for example: gnome-terminal
+
+3. you can drag started application to another workspace at the right, you can also drag a application icon in dash or the application list to start a application in a new workspace.
+
+4. Useful shortcut:
+	Alt+F1/Windows: Activities
+	Alt+`: Switch windows between the same program
+	Ctrl+Alt+Tab: Move focus to the top bar
+	Ctrl+Alt+Up and Ctrl+Alt+Down: Switch between workspaces.
+	Ctrl+Alt+Shift+Up and Ctrl+Alt+Shift+Down: Move the current window to a different workspace.
+	Ctrl+Alt+Delete: Log out.
+
+5. Click the user account at the top right, Alt key can shift suspend and power off at the end of the menu.

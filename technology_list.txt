@@ -1,0 +1,18 @@
+Technologies I'm interesting in:
+
+1. New Programming Languages: Python, D, Ada, Ruby, Jruby, Perl 
+
+2. Linux utilities and shell programming.
+
+2. User Interface Programming
+
+3. Build System of Software Product
+
+4. Database/Database Programming
+
+5. New Features, such as gnome-3, 
+
+6. New developing tools, such as IDE, source code browser(), souce code analysis(frama-c), Test framework.
+
+7. 
+

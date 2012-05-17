@@ -1,0 +1,1 @@
+1. data URI starts with "data:", and the data: URI doesn't specify a file to load, it gives the entire contents instead.

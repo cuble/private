@@ -1,0 +1,12 @@
+1. locate
+    do db update before using it:
+      $ sudo updatedb
+    find a file xxx: 
+      $ locate xxx
+    find
+
+
+2. find
+
+
+3. grep

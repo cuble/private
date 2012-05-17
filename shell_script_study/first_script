@@ -1,0 +1,26 @@
+#!/bin/sh
+# Set a variable
+a="Hello World"
+echo "A is: "$a
+echo ""
+
+num=2
+echo "this is the ${num}nd variable"
+echo ""
+
+echo "3rd case: caculate"
+num=$num+1
+echo "result of num=\$num+1 is: " $num
+let "num+=1"
+echo "result of let \"num+=1\" is: " $num
+num=$[$num+1]
+echo "result of \$[\$num+1] is: " $num
+num=`expr $num + 1`
+echo "result of \`expr \$num + 1\` is: " $num
+echo ""
+
+echo "4th case: *, vriable and effect of \" and ' "
+echo " notes* is: " notes* 
+echo " \"notes*\" is: notes* and \"\$num\" is: $num"
+echo " 'notes*' is: " 'notes*' "and '\$num' is: " '$num'
+

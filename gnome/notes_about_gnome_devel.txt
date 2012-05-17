@@ -1,0 +1,36 @@
+1. First you need to install the basic tools needed for GNOME development:
+	anjuta - Integrated development environment
+	glade - Interface designer
+	devhelp - API Browser
+	$ sudo yum install anjuta glade3 devhelp
+
+2. For C/C++
+	$ sudo yum install gtk3-devel gstreamer-devel clutter-devel webkitgtk3-devel libgda-devel gobject-introspection-devel gcc-c++
+	$ sudo yum install gtk3-devel-docs gstreamer-devel-docs clutter-doc
+	$ sudo yum install gtkmm30-devel gstreamermm-devel cluttermm-devel webkitgtk3-devel libgdamm-devel
+	$ sudo yum install gtkmm30-doc gstreamermm-doc
+
+3. Python
+	$ sudo yum install python pygobject2
+	GObjectIntrospection reference: http://live.gnome.org/GObjectIntrospection
+
+4. Vala:
+	$ sudo yum install vala vala-devel vala-tools vala-doc
+	Reference: http://live.gnome.org/Vala
+
+5. JavaScript:
+	$ sudo yum install gjs gjs-devel
+	Note: both gjs(base on the Mozilla's Spidermonkey engine) and seed(base on the WebKit's JavaScriptCore) 
+	Reference: http://live.gnome.org/JavaScript
+
+6. Demos:
+	C/GTK/Webkit Demo: http://developer.gnome.org/gnome-devel-demos/unstable/message-board.c.html.en
+	GTK Basic Demo: http://developer.gnome.org/gtk-tutorial/stable/
+
+General References:
+1. Start point of GNOME Develop: http://developer.gnome.org/
+2. Mail List of Gnome: http://mail.gnome.org/mailman/listinfo
+3. IRC channel of GNOME: http://live.gnome.org/GnomeIrcChannels
+4. Doc of GDK3: http://developer.gnome.org/gdk3/stable/
+5. Doc of GTK3: http://developer.gnome.org/gtk3/stable/
+
