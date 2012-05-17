@@ -1,0 +1,56 @@
+1. Prerequirement: 
+  python >= 2.3
+  git 
+  gcc
+
+2. Download JHBuild(to ~/checkout/gnome): 
+  git clone git://git.gnome.org/jhbuild
+  
+3. Install JHBuild
+  cd jhbuild
+  ./autogen.sh
+  make
+  make install
+
+  Note: "./autogen.sh --simple-install" can definitely configure JHBuild install by a plain Makefile. While, if gnome-common, yelp-tools, and autotools are available, autogen.sh will configure JHBuild to install via autotools.
+
+4. Add JHBuild executable location to PATH.
+  PATH=$PATH:~/.local/bin
+   or: echo PATH=$PATH:~/.local/bin >> ~/.bashrc
+
+   
+5. Configure JHBuild: copy examples/sample.jhbuildrc to ~/.jhbuildrc and customized it. 
+  The example is used to build meta-gnome-core and meta-gnome-apps-tested modules and dependencies from the gnome-apps module set.
+  The source will be unpacked to ~/checkout/gnome and install all files to subdirectories of /opt/gnome.
+  Keywords:
+    repos, a dictionary. For example: repos['git.gnome.org']='ssh://username@git.gnome.org/git/'
+    moduleset
+    modules, specify the modules to build. It will expand all dependencies by default unless "buildone" command used. Default is: ['meta-gnome-desktop']
+    checkoutroot: default is: ~/checkout/gnome
+    prefix: default is: /opt/gnome
+    autogenargs: arguments passed to "autogen.sh". Can be overridden for particular modules using the module_autogenargs dictionary.
+    makeargs: arguments passed to "make".
+
+6. Build prerequisites: GNU Autotools, which include: autoconf, automake, libtool, gettext; GNU toolchain which include: binutils, gcc, g++; and make, pkg-config, Python and so on. 
+  We can check the tools installed using "sanitycheck" command: jhbuild sanitycheck
+  We also can install prerequisites by command: jhbuild bootstrap
+  
+7. Start using it: 
+  jhbuild build, used to build modules selected by ~/.jhbuildrc
+  jhbuild build gtk+, used to build gtk+ and it's dependencies
+  jhbuild build --start-at=pango, to resume a failed build which start from module pango
+  jhbuild buildone gtk+, used to build only gtk+ without dependencies, while this can only be success after all the dependencies are ready on the system.
+  jhbuild make, used it in a source working directory, the make will invoke the build system and install the module.
+  jhbuild list, used to list the modules and dependencies which jhbuild will build.
+  jhbuild info gtk+, used to get information about gtk+.
+  jhbuild update, used to update source code from network.
+  jhbuild build --no-network, used to build module without code update
+  jhbuild run $program, run a particular program with the same environment with JHBuild.
+  jhbuild shell, start a shell with the same environment used by JHBuild.
+  
+8. Build GNOME, install and run.
+
+
+Reference: http://developer.gnome.org/jhbuild/stable/getting-started.html.en
+
+
