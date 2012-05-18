@@ -10,7 +10,7 @@ Technologies I'm interesting in:
 
 4. Database/Database Programming
 
-5. New Features, such as gnome-3, 
+5. New Features, such as gnome-3, git 
 
 6. New developing tools, such as IDE, source code browser(), souce code analysis(frama-c), Test framework.
 
