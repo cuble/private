@@ -23,4 +23,8 @@
 
 	Then install via yum: sudo yum install google-chrome-stable
 
-
+4. Install git by source:
+	Downloade the latest git source
+	extract the source code
+	cd git-x.y.z
+	sudo make prefix=/usr/local install
