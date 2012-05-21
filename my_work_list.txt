@@ -17,7 +17,7 @@ Hanzhou Developer Sumit: subforum clean code
 
 My personal information for house buying:
   - Wangwang contact with GuanGuan to get the material list
-    -* copy of Hukou 
+    - copy of Hukou 
     -* 10W certification from the bank
     - Hangzhou DangAn Institude provide a No-house in hangzhou certification
       - Dad will do it.
@@ -27,10 +27,10 @@ DSK problem
   -* It's abnormal in CCP1D when power of the HDD, confirm it.
   -* It's uncertain about the power off WDU in CCP1D, confirm with Chen erqi
 
-git work flow for dadapa.
+*git work flow for dadapa.
 
 
-Well-factored Code: topic for tech talk
+*Well-factored Code: topic for tech talk
 
 DMXSEE local Wiki Page
   -* Apply for Jira account
