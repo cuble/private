@@ -1,0 +1,2 @@
+project smell: if your FAQ is mainly about how to solve problems, it indicates project in trouble.  ---Inspiration from FCITX FAQ
+
