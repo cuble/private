@@ -1,7 +1,8 @@
 Contract of GuanGuan
-  - No punishment for 10W sells requirement
-  - How to return unsalable products
-  - How to punish for violate the contract
+  -* No punishment for 10W sells requirement
+  -* How to return unsalable products
+  -* How to punish for violate the contract
+  -* No restriction to each other
 
 LiuHu's material for his Hukou issue
   - print the material he sent
@@ -9,13 +10,17 @@ LiuHu's material for his Hukou issue
 
 Hanzhou Developer Sumit: subforum clean code
   - Clean code Vs. Performance: 
-    - meeting 5/22
+    -* meeting 5/22
   - Ut
     - Ling Jianfa, talk about UT framework implementation
-    - Have a meeting about it.
+    -* Have a meeting about it.
 
 My personal information for house buying:
-  -* Wangwang contact with GuanGuan to get the material list
+  - Wangwang contact with GuanGuan to get the material list
+    -* copy of Hukou 
+    -* 10W certification from the bank
+    - Hangzhou DangAn Institude provide a No-house in hangzhou certification
+      - Dad will do it.
   -* Ask help from Assistant
 
 DSK problem
@@ -25,3 +30,7 @@ DSK problem
 git work flow for dadapa.
 
 
+Well-factored Code: topic for tech talk
+
+DMXSEE local Wiki Page
+  -* Apply for Jira account
