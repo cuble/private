@@ -36,4 +36,7 @@
 	diff A B>C, patch A C: obtain B from A by patch.
 	patch -R B C: continue the last command, it will revert B to A.
 
+6. Startup Chinese input method
+	Run "Input Method Selector"
+	Choose Ibus or fcitx(sudo yum install fcitx)
 
