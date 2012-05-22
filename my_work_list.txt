@@ -9,12 +9,13 @@ Contract of GuanGuan
   - How to punish for violate the contract
   - No restriction to each other
   - Send it to Guo Zhiyong to review.
-  -* Think about the exclusive clause in the contract.
-  -* fix the linux edit version display error in windows problem.
+  - Think about the exclusive clause in the contract.
+  - fix the linux edit version display error in windows problem.
 
 LiuHu's material for his Hukou issue
   - print the material he sent
-  -* contract his Hukou contract. 
+  - contract his Hukou contract. 
+    - Dad done it.
 
 Hanzhou Developer Sumit: subforum clean code
   - Clean code Vs. Performance: 
@@ -23,6 +24,7 @@ Hanzhou Developer Sumit: subforum clean code
     - Ling Jianfa, talk about UT framework implementation
     -* Have a meeting about it.
   -* Holly need sub-forum schedule and a presenter to be introduced.
+    - mail replied, the final reply to her will delayed to tomorrow.
 
 My personal information for house buying:
   - Wangwang contact with GuanGuan to get the material list
