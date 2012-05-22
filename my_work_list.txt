@@ -1,8 +1,16 @@
+Hit macro of RU30 to RU40 upgrade
+  - Contacting Zhang Jianfei for Shenzhen contact person.
+  - Get the macro and conversion program from Zhang Jianfei
+  -* prepair the macro for testing.
+
 Contract of GuanGuan
   - No punishment for 10W sells requirement
   - How to return unsalable products
   - How to punish for violate the contract
   - No restriction to each other
+  - Send it to Guo Zhiyong to review.
+  -* Think about the exclusive clause in the contract.
+  -* fix the linux edit version display error in windows problem.
 
 LiuHu's material for his Hukou issue
   - print the material he sent
@@ -10,10 +18,11 @@ LiuHu's material for his Hukou issue
 
 Hanzhou Developer Sumit: subforum clean code
   - Clean code Vs. Performance: 
-    -* meeting 5/22
+    - meeting 5/22
   - Ut
     - Ling Jianfa, talk about UT framework implementation
     -* Have a meeting about it.
+  -* Holly need sub-forum schedule and a presenter to be introduced.
 
 My personal information for house buying:
   - Wangwang contact with GuanGuan to get the material list
@@ -33,4 +42,5 @@ DSK problem
 
 DMXSEE local Wiki Page
   -* Apply for Jira account
+
 
