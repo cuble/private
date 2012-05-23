@@ -1,2 +1,4 @@
 project smell: if your FAQ is mainly about how to solve problems, it indicates project in trouble.  ---Inspiration from FCITX FAQ
 
+To lead: you should set a direction(your target), and then let others work freely on the direction. Share direction is better than share solutions.    ----Inspiration from a not good meeting facilitate.
+
