@@ -11,6 +11,8 @@ Contract of GuanGuan
   - Send it to Guo Zhiyong to review.
   - Think about the exclusive clause in the contract.
   - fix the linux edit version display error in windows problem.
+  -* Ask uncle He to review it.
+  -* print two copies of it.
 
 LiuHu's material for his Hukou issue
   - print the material he sent
@@ -22,9 +24,14 @@ Hanzhou Developer Sumit: subforum clean code
     - meeting 5/22
   - Ut
     - Ling Jianfa, talk about UT framework implementation
-    -* Have a meeting about it.
-  -* Holly need sub-forum schedule and a presenter to be introduced.
+    - Have a meeting about it.
+    -* Collecting practice topics.
+  - Holly need sub-forum schedule and a presenter to be introduced.
     - mail replied, the final reply to her will delayed to tomorrow.
+    - Self-introduction and photo for sub-forum introduction
+    - Final Schedule
+  -* Meeting scheduled, detial presentations and meeting room design.
+    -* UT experience example collecting.
 
 My personal information for house buying:
   - Wangwang contact with GuanGuan to get the material list
@@ -41,8 +48,11 @@ DSK problem
 
 
 *Well-factored Code: topic for tech talk
+  - UT Framework for the string output verification
+  -* C implementation for the problem example
+  -* C++ implementation for the problem example
 
 DMXSEE local Wiki Page
-  -* Apply for Jira account
+  -* Update the wiki page HZDmxSEE
 
 
