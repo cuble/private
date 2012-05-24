@@ -2,6 +2,7 @@ Hit macro of RU30 to RU40 upgrade
   - Contacting Zhang Jianfei for Shenzhen contact person.
   - Get the macro and conversion program from Zhang Jianfei
   -* prepair the macro for testing.
+    - Explain the requirement to Xu Liang
 
 Contract of GuanGuan
   - No punishment for 10W sells requirement
