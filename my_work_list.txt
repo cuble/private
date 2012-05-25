@@ -1,8 +1,15 @@
+Register to AIX training
+  - Registered
+  -* go classroom 6-2 and 6-3
+
+*Repair the IBM server
+
 Hit macro of RU30 to RU40 upgrade
   - Contacting Zhang Jianfei for Shenzhen contact person.
   - Get the macro and conversion program from Zhang Jianfei
-  -* prepair the macro for testing.
+  - prepair the macro for testing.
     - Explain the requirement to Xu Liang
+    - solving problems caused by the new macro.
 
 Contract of GuanGuan
   - No punishment for 10W sells requirement
@@ -12,7 +19,8 @@ Contract of GuanGuan
   - Send it to Guo Zhiyong to review.
   - Think about the exclusive clause in the contract.
   - fix the linux edit version display error in windows problem.
-  -* Ask uncle He to review it.
+  - Ask uncle He to review it.
+    -* To add a Supplier restriction item.
   -* print two copies of it.
 
 LiuHu's material for his Hukou issue
@@ -26,7 +34,7 @@ Hanzhou Developer Sumit: subforum clean code
   - Ut
     - Ling Jianfa, talk about UT framework implementation
     - Have a meeting about it.
-    -* Collecting practice topics.
+    - Collecting practice topics.
   - Holly need sub-forum schedule and a presenter to be introduced.
     - mail replied, the final reply to her will delayed to tomorrow.
     - Self-introduction and photo for sub-forum introduction
