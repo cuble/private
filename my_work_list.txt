@@ -3,6 +3,8 @@ Register to AIX training
   -* go classroom 6-2 and 6-3
 
 *Repair the IBM server
+  -* read the database out first
+  -* send the server to repair center
 
 Hit macro of RU30 to RU40 upgrade
   - Contacting Zhang Jianfei for Shenzhen contact person.
