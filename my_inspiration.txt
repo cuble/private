@@ -2,3 +2,5 @@ project smell: if your FAQ is mainly about how to solve problems, it indicates p
 
 To lead: you should set a direction(your target), and then let others work freely on the direction. Share direction is better than share solutions.    ----Inspiration from a not good meeting facilitate.
 
+The IBM server broken cost RMB100 to recover the recover the data. To keep your data safe is important. When you find something important, the security of the thing is important!    ---Inspiration from my IBM server broken.
+
