@@ -2,10 +2,6 @@ Register to AIX training
   - Registered
   -* go classroom 6-2 and 6-3
 
-*Repair the IBM server
-  -* read the database out first
-  -* send the server to repair center
-
 Hit macro of RU30 to RU40 upgrade
   - Contacting Zhang Jianfei for Shenzhen contact person.
   - Get the macro and conversion program from Zhang Jianfei
@@ -49,13 +45,16 @@ My personal information for house buying:
     - copy of Hukou 
     - Hangzhou DangAn Institude provide a No-house in hangzhou certification
       - Dad will do it.
-    -* 10W certification from the bank
+    - 10W certification from the bank
+  -* visit the model room of the house.
 
 DSK problem
   -* It's abnormal in CCP1D when power of the HDD, confirm it.
   -* It's uncertain about the power off WDU in CCP1D, confirm with Chen erqi
 
 *git work flow for dadapa.
+  - the work flow instruction
+  -* the scripts for it.
 
 
 *Well-factored Code: topic for tech talk
@@ -66,4 +65,8 @@ DSK problem
 DMXSEE local Wiki Page
   -* Update the wiki page HZDmxSEE
   - 2289714828
+
+*Repair the IBM server
+  - read the database out first
+  -* try to repair it myself
 
