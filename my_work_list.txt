@@ -2,7 +2,7 @@ Register to AIX training
   - Registered
   -* go classroom 6-2 and 6-3
 
-Hit macro of RU30 to RU40 upgrade
+Hit macro of RU30 to RU40 upgrade  --Done
   - Contacting Zhang Jianfei for Shenzhen contact person.
   - Get the macro and conversion program from Zhang Jianfei
   - prepair the macro for testing.
@@ -21,7 +21,7 @@ Contract of GuanGuan
     -* To add a Supplier restriction item.
   -* print two copies of it.
 
-LiuHu's material for his Hukou issue
+LiuHu's material for his Hukou issue  --Done
   - print the material he sent
   - contract his Hukou contract. 
     - Dad done it.
@@ -40,7 +40,7 @@ Hanzhou Developer Sumit: subforum clean code
   -* Meeting scheduled, detial presentations and meeting room design.
     -* UT experience example collecting.
 
-My personal information for house buying:
+My personal information for house buying:  --Done
   - Wangwang contact with GuanGuan to get the material list
     - copy of Hukou 
     - Hangzhou DangAn Institude provide a No-house in hangzhou certification
