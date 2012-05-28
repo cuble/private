@@ -9,7 +9,7 @@ Hit macro of RU30 to RU40 upgrade  --Done
     - Explain the requirement to Xu Liang
     - solving problems caused by the new macro.
 
-Contract of GuanGuan
+Contract of GuanGuan  --Done
   - No punishment for 10W sells requirement
   - How to return unsalable products
   - How to punish for violate the contract
@@ -18,8 +18,7 @@ Contract of GuanGuan
   - Think about the exclusive clause in the contract.
   - fix the linux edit version display error in windows problem.
   - Ask uncle He to review it.
-    -* To add a Supplier restriction item.
-  -* print two copies of it.
+    - To add a Supplier restriction item.
 
 LiuHu's material for his Hukou issue  --Done
   - print the material he sent
