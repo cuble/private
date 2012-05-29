@@ -1,4 +1,4 @@
-SFU exceptional case reproduce
+SFU exceptional case reproduce  --Done
 
 Register to AIX training
   - Registered
@@ -58,11 +58,11 @@ DSK problem
   -* C implementation for the problem example
   -* C++ implementation for the problem example
 
-DMXSEE local Wiki Page
-  -* Update the wiki page HZDmxSEE
+DMXSEE local Wiki Page  --Done
+  - Update the wiki page HZDmxSEE
   - 2289714828
 
 *Repair the IBM server
   - read the database out first
-  -* try to repair it myself
+  -* try to repair it myself, ask help on Taobao
 
