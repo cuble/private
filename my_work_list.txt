@@ -1,3 +1,5 @@
+SFU exceptional case reproduce
+
 Register to AIX training
   - Registered
   -* go classroom 6-2 and 6-3
