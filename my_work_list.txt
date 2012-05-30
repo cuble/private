@@ -61,6 +61,7 @@ DSK problem
 DMXSEE local Wiki Page  --Done
   - Update the wiki page HZDmxSEE
   - 2289714828
+  -* Share it with HZDMXSEE user group
 
 *Repair the IBM server
   - read the database out first
