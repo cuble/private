@@ -4,3 +4,7 @@ To lead: you should set a direction(your target), and then let others work freel
 
 The IBM server broken cost RMB100 to recover the recover the data. To keep your data safe is important. When you find something important, the security of the thing is important!    ---Inspiration from my IBM server broken.
 
+The Scrum framework is too complex to be utilized into team working. The core of it's team management: estimation, seems can't work at all in teams' daily work.  ---Inspiration from scrum framework study
+
+The user story of the Scrum framework seems not expressed the requirement comes from implementation "team". Team need to study, and different teams have different capability, then, have different understanding to the task. They may have different "requirement" when they implementing the SW component.    ---Inspiration from backlog practicing on backlog-editor.
+
