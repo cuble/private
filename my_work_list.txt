@@ -2,7 +2,7 @@ SFU exceptional case reproduce  --Done
 
 Register to AIX training
   - Registered
-  -* go classroom 6-2 and 6-3
+  -* go classroom 6-16 and 6-17
 
 Hit macro of RU30 to RU40 upgrade  --Done
   - Contacting Zhang Jianfei for Shenzhen contact person.
@@ -49,16 +49,16 @@ My personal information for house buying:  --Done
     - 10W certification from the bank
   - visit the model room of the house.
 
-DSK problem
-  -* It's abnormal in CCP1D when power of the HDD, confirm it.
-  -* It's uncertain about the power off WDU in CCP1D, confirm with Chen erqi
+DSK problem  --Done
+  - It's abnormal in CCP1D when power of the HDD, confirm it.
+  - It's uncertain about the power off WDU in CCP1D, confirm with Chen erqi
 
 *Well-factored Code: topic for tech talk
   - UT Framework for the string output verification
   -* C implementation for the problem example
   -* C++ implementation for the problem example
 
-DMXSEE local Wiki Page  --Done
+DMXSEE local Wiki Page  
   - Update the wiki page HZDmxSEE
   - 2289714828
   -* Share it with HZDMXSEE user group
