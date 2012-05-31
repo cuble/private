@@ -39,7 +39,9 @@ Hanzhou Developer Sumit: subforum clean code
     - Self-introduction and photo for sub-forum introduction
     - Final Schedule
   -* Meeting scheduled, detial presentations and meeting room design.
-    -* UT experience example collecting.
+    - UT experience example collecting.
+    - Organize a meeting.
+    -* finalize the schedule.
 
 My personal information for house buying:  --Done
   - Wangwang contact with GuanGuan to get the material list
