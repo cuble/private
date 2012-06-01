@@ -1,5 +1,15 @@
 #!/bin/sh
 
+index=0
+
+function idx() {
+index=$[$index+1]
+echo $index. $1
+}
+
+idx "Try for"
 for var in A B C; do 
    echo "variable is $var"
 done
+
+

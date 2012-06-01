@@ -39,6 +39,8 @@
 
 6. '' and \ can be used to print reserved keyword.
 
-
+7. function: 
+   define a function: function afun(){echo $1;} 
+   call the funciton: afun helloworld
 
 
