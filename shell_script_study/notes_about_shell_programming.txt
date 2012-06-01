@@ -46,4 +46,6 @@
 8. get the result of a command: var=`command [option] [param]`
    date=`date +%Y%d%m`; echo $date
 
+9. "#!" at the begining of the script, it indicates the sh environment this script needed.
+   #! bin/bash, it indicates to run ~/.bashrc before run the script
 
