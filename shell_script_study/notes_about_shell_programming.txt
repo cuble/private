@@ -43,4 +43,7 @@
    define a function: function afun(){echo $1;} 
    call the funciton: afun helloworld
 
+8. get the result of a command: var=`command [option] [param]`
+   date=`date +%Y%d%m`; echo $date
+
 
