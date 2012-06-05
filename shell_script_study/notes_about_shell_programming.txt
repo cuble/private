@@ -26,6 +26,7 @@
 	[ -x "/bin/ls" ] : return if /bin/ls exist and executable
 	[ -n "$var" ] : return if the variable var set a value
 	and -r, -w, -x check if the file readable, writable, executable.
+	-s check if the file empty.
 	[ "$a" = "$b" ] : return if $a the same with $b
 	NOTE: The blankspace after '[' and before ']' is must. And ' ' before after '=' is must.
 	Reference: www.cnblogs.com/feisky/archive/2010/03/31/1701560.html
@@ -36,8 +37,10 @@
 
 5. $1, the first argument transferred to the script. For example: script 123.txt. $1 is 123.txt
    $*, all the arguments transferred to th escript.
+   $?, the Exit Status of command or shell script. 0 indicate successful.
+   $#, number of command line arguments.
 
-6. '' and \ can be used to print reserved keyword.
+6. '' and \ can be used to print reserved keyword. "" will unmeaning keywords except \, $ and `.
 
 7. function: 
    define a function: function afun(){echo $1;} 
@@ -48,4 +51,7 @@
 
 9. "#!" at the begining of the script, it indicates the sh environment this script needed.
    #! bin/bash, it indicates to run ~/.bashrc before run the script
+
+10. command1;command2
+    It used to run two command in one command line
 

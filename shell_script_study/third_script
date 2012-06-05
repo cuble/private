@@ -4,12 +4,20 @@ index=0
 
 function idx() {
 index=$[$index+1]
-echo $index. $1
+echo $index. $*
 }
 
-idx "Try for"
+idx Try for
 for var in A B C; do 
    echo "variable is $var"
 done
 
+idx Try \$# and \$*
+function testfun() {
+echo '$#='$#
+echo '$1 is ' $1
+echo '$* is ' $*
+}
+testfun hello
+testfun hello world
 
