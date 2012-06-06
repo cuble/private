@@ -32,8 +32,10 @@
 	Reference: www.cnblogs.com/feisky/archive/2010/03/31/1701560.html
 
 4. && and ||
-	condition_expression && do_one_thing, means do one thing when the condition is true.
-	condition_expression || do_one_thing, means do one thing when the condition is false.
+	condition_expression && do_one_thing, means do one thing when the condition is true or command successful.
+	condition_expression || do_one_thing, means do one thing when the condition is false or command fail.
+	condition_expression && do_one_thing || do_another_thing, means do one thing if condition true, unless do another thing.
+
 
 5. $1, the first argument transferred to the script. For example: script 123.txt. $1 is 123.txt
    $*, all the arguments transferred to th escript.
@@ -54,4 +56,32 @@
 
 10. command1;command2
     It used to run two command in one command line
+
+11. debug shell script: use -v and -x option.
+    bash -x script param1 param2 ...
+    bash -v script param1 param2 ...
+
+12. send unwanted ouput to /dev/null:
+    command > /dev/null
+
+13. execute a command when detect a signal.
+    trap {commands} {signal number list}
+      trap 'echo "ctrl+c caught"; exit 1" 2
+      trap ctrl_c_hanle 2 # ctrl_c_handle is a user defined function
+		signal Number		When occurs
+		0			shell exit
+		1			hangup
+		2			interrupt(CTRL+C)
+		3			quit
+		9			kill(cannot be caught)
+
+14. shift and getopts are commands used to handle script options
+    shift n # n is a number indicate how many positions the options move left
+    getopts a:b:c opt
+      case $opt in
+       a) aparam="$OPTARG";;
+       b) bparam="$OPTARG";;
+       c) cparam="$OPTARG";;
+      esac
+    
 

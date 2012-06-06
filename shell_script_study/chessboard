@@ -1,3 +1,5 @@
+trap 'echo "trap executed, CTRL+C caught"; exit 1' 2
+
 for (( i = 1; i <= 9; i++ )) ### Outer for loop ###
 do
    for (( j = 1 ; j <= 9; j++ )) ### Inner for loop ###
@@ -12,5 +14,18 @@ do
   done
  echo -e -n "\033[40m" #### set back background colour to black
  echo "" #### print the new line ###
+done
+
+while :
+do
+   echo "trap test, please press CTRL+C or q to quit"
+   read c
+   if [ $c = q -o $c = Q ]; then
+     echo "quit normally"
+     exit 0
+   fi
+   if [ $c = i ]; then 
+     ls | a
+   fi
 done
 

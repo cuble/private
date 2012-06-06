@@ -1,0 +1,22 @@
+function idx() {
+num=`expr $num + 1`
+echo $num. $*
+}
+
+num=0
+
+idx cut basic: "cut -f1 sname"
+cut -f1 sname
+
+idx paste basic: "paste sname smark"
+paste sname smark
+
+idx join basic:  "join sname smark"
+join sname smark #join only work if there is common field in both file and if values are identical.
+
+idx tr basic: 'tr "h2" "3x" < sname'
+tr "h2" "3x" <sname # h replace with 3; 2 replace with x
+
+idx 'tr "[A-Z]" "[a-z]" < sname'
+tr "[A-Z]" "[a-z]" < sname
+
