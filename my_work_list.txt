@@ -1,4 +1,7 @@
-Check if the file commit in Windows break the file link in linux in my dadapa projec
+* RNC196 CS7 startup performance testing
+
+Check if the file commit in Windows break the file link in linux in my dadapa projec  --Done
+  - it broke the link
 
 SFU exceptional case reproduce  --Done
 
@@ -40,10 +43,14 @@ Hanzhou Developer Sumit: subforum clean code
     - mail replied, the final reply to her will delayed to tomorrow.
     - Self-introduction and photo for sub-forum introduction
     - Final Schedule
-  -* Meeting scheduled, detial presentations and meeting room design.
+  - Meeting scheduled, detial presentations and meeting room design.
     - UT experience example collecting.
     - Organize a meeting.
-    -* finalize the schedule.
+    - finalize the schedule.
+  -* Final preparation
+    -* meeting room
+    -* presenter discussiong
+    -* material prepare
 
 My personal information for house buying:  --Done
   - Wangwang contact with GuanGuan to get the material list
