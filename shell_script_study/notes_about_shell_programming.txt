@@ -85,3 +85,5 @@
       esac
     
 
+Reference:
+http://www.freeos.com/guides/lsst/index.html
