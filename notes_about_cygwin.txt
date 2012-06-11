@@ -1,0 +1,13 @@
+1. make cygwin return to the folder before I enter in:
+  keep %cd% and dsk partition
+	set org_dir=%cd%
+	set dsk=%org_dir:~0,2%
+  return to origin location
+	%dsk%
+	cd %org_dir%
+
+2. to ignore "/r" in dos format script in cygiwn
+  add following lines into ~/.bash_profile
+	export SHELLOPTS
+	set -o igncr 
+
