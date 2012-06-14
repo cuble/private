@@ -7,7 +7,7 @@ SFU exceptional case reproduce  --Done
 
 Register to AIX training
   - Registered
-  -* go classroom 6-16 and 6-17
+  -* go classroom July
 
 Hit macro of RU30 to RU40 upgrade  --Done
   - Contacting Zhang Jianfei for Shenzhen contact person.
@@ -47,10 +47,11 @@ Hanzhou Developer Sumit: subforum clean code
     - UT experience example collecting.
     - Organize a meeting.
     - finalize the schedule.
-  -* Final preparation
-    -* meeting room
-    -* presenter discussiong
-    -* material prepare
+  - Final preparation
+    - meeting room
+    - presenter discussiong
+    - material prepare
+  -* Meeting!
 
 My personal information for house buying:  --Done
   - Wangwang contact with GuanGuan to get the material list

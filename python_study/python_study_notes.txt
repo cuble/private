@@ -1,4 +1,147 @@
+Useful Link: http://docs.python.org/
+
+1. keywords:
+    functions: type, len, dir, help, getattr(obj, 'attr')
+    module: sys, types, os, UserDict
+    import, from module import. "from..." syntax will copy things to current namespace.
+    class
+
+2. Grammar
+    Only 0, '', [], (), {} and None are false in a boolean context.
+    is None and == None are both allowed, and is None is faster.
+    list comprehensions: [fun(v) for v in l]
+    list filtering: [k for k in l if fun(k)]
+    list can add and even multiply to a number
+    function define:
+        def funName(arg...):
+        ''' docString '''
+            code
+    Class define:
+        class className(p...):
+        "docString"
+            def __init__(self,arg...)
+    
+3. str functions:
+    s.join(l)
+    s.split(c[,max])
+    s.ljust(width[,fillchar])
+
+4. class conclusion:
+    Instance of class has a built-in attribute __class__, it is reference to the class which the instance belongs to.
+    class has attr:__name__, __base__
+    class has attr '__module__' which is the name of the module this class belongs to.
+    Explicit call ancestor's constructor(__init__) is needed.
+    __len__() is called when len(obj) was invoked.
+    class can have global variables which shared by all instances of this class.
+    private attributes and functions defined by name: start with "__", but not end with it.
+    
+5. "reference counting" is used for garbage collection.
+    "mark-and-sweep" is used to clean up circular references(e.g. doubly-linked list)
+    For C++ programmers: all methods in Python are effectively virtual. Overrided method called in base class, the method in derived class takes effect.
+    Module or class can have private functions, and class can have private attributes. "__name" name style functions and attributes are private. But you can use "_c__name" style to access the private members.
+
+
+6. dict functions:
+    d.update(d0), merge d0 to d
+    d.__setitem__(k,v), called by d[k]=v
+    d.__getitem__(k), called by d[k]
+    
+7. list functions:
+    l.index(elem)
+    l.append(val),l.extend(l0)
+    
+8. Exception issues:
+    1) style of exception handle in python:
+        try:
+            do something may cause exception
+        except EXCEPTNAME:
+            handle the exception
+        continue operations
+    2) if we use 'pass' as handle the exception, we just ignore the exception silenttly and continue.
+    3) if we want to continue some action both with or without exception, we can use"try ... finally"
+    
+    
+9. File Operation:
+    1) f=open(name, mode), f.tell, f.seek, f.read, f.write.
+    
+10 sys.modules: it's a dictionary containing all the modules that have ever been imported, the key is the module name, the value the module object.
+	sys.path: it's a list containing all paths in which modules will be searched.
+
+11 os.path is a module, has method 'join' and 'expanduser', 
+    1) For example: os.paht.join('c:\\','my documents'), 
+        os.path.join('c:\\123', 'my documents'),
+        os.path.expanduser('~')
+    2) has method 'split' and 'splitext'. both will get a 2 elements tuple.
+    3) has method 'isfile' and 'isdir'
+    4) os module has method 'listdir', for example os.listdir('c:\\')
+    5) glob module is another file search module, glob.glob(path), the path may contain wildcard.
+        For example: glob.glob('c:\\music\\_singles\\*.mp3')
+        
+12 Regular expressions:
+    1) $: the words at the end of the string, "ROAD$" etc.
+    2) r: means the string is the raw string. r"\bROAD$" etc.
+    3) \b: means the word boundary.
+    4) the module re is used for regular expressions handling, import re. re.sub(r"\bROAD\b", "RD.", s), s is the target string.
+    5) re has methods: 'sub' and 'search'
+    6) Roman number search pattern: '^M?M?M?(CM|CD|D?C?C?C?)(XC|XL|L?X?X?X?)(IX|IV|V?I?I?I?)$'
+    7) Another check pattern is: '^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$'
+    8) The pattern can be writtern as the VERBOSE mode:
+        pattern = """
+        ^                   # beginning of string
+        M{0,4}              # thousands - 0 to 4 M's
+        (CM|CD|D?C{0,3})    # hundreds - 900 (CM), 400 (CD), 0-300 (0 to 3 C's),
+                            #            or 500-800 (D, followed by 0 to 3 C's)
+        (XC|XL|L?X{0,3})    # tens - 90 (XC), 40 (XL), 0-30 (0 to 3 X's),
+                            #        or 50-80 (L, followed by 0 to 3 X's)
+        (IX|IV|V?I{0,3})    # ones - 9 (IX), 4 (IV), 0-3 (0 to 3 I's),
+                            #        or 5-8 (V, followed by 0 to 3 I's)
+        $                   # end of string
+        """
+        And use it should with argument 're.VERBOSE', re.search(pattern, 'M', re.VERBOSE) etc.
+    9) re has methods: 'compile' and 'groups':
+        phonePattern = re.compile(r'''
+                    # don't match beginning of string, number can start anywhere
+        (\d{3})     # area code is 3 digits (e.g. '800')
+        \D*         # optional separator is any number of non-digits
+        (\d{3})     # trunk is 3 digits (e.g. '555')
+        \D*         # optional separator
+        (\d{4})     # rest of number is 4 digits (e.g. '1212')
+        \D*         # optional separator
+        (\d*)       # extension is optional and can be any number of digits
+        $           # end of string
+        ''', re.VERBOSE)
+    >>> phonePattern.search('work 1-(800) 555.1212 #1234').groups()        
+    ('800', '555', '1212', '1234')
+    >>> phonePattern.search('800-555-1212')                                
+    <_sre.SRE_Match object at 0x00C1D650>
+    10) summary of patterns:
+        ^ matches the beginning of a string. 
+        $ matches the end of a string. 
+        \b matches a word boundary. 
+        \d matches any numeric digit. 
+        \D matches any non-numeric character. 
+        \s matches space character
+        \S matches non-space character
+        x? matches an optional x character (in other words, it matches an x zero or one times). 
+        x* matches x zero or more times. 
+        x+ matches x one or more times. 
+        x{n,m} matches an x character at least n times, but not more than m times. 
+        (a|b|c) matches either a or b or c. 
+        (x) in general is a remembered group. You can get the value of what matched by using the groups() method of the object returned by re.search. 
+
+13 html handle
+    1)Start tag: start_tagname, do_tagname, unknown_starttag
+    2)End tag:end_tagname, unknown_endtag
+    3)Character reference: handle_charref
+    4)Entigy reference:handle_entityref
+    5)Comment: handle_comment
+    6)Processing instruction: handle_pi
+    7)Declaration: handle_decl
+    8)Text data: handle_data
+
+
 
 references:
+http://www.diveintopython.net/
 http://docs.python.org/release/2.6.8/tutorial/index.html
 
