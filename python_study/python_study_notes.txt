@@ -14,11 +14,11 @@ Useful Link: http://docs.python.org/
     list can add and even multiply to a number
     function define:
         def funName(arg...):
-        ''' docString '''
+            ''' docString '''
             code
     Class define:
         class className(p...):
-        "docString"
+            "docString"
             def __init__(self,arg...)
     
 3. str functions:
@@ -34,6 +34,14 @@ Useful Link: http://docs.python.org/
     __len__() is called when len(obj) was invoked.
     class can have global variables which shared by all instances of this class.
     private attributes and functions defined by name: start with "__", but not end with it.
+    instance related functions: isinstance(obj, aClass), issubclass(dClass, bClass)
+    all functions in a class is worked as virtual funciton in C++
+    OLD STYLE multiply inheritance, the keyword search rule is: depth first, left-to-right.
+    NEW STYLE refer to: http://www.python.org/download/releases/2.3/mro/
+    There are two ways to add iterator support for a class: 
+        add a __iter__() method to return a object with next() method
+        add a __iter__() method to return self, and define a next() method in the class
+        Then you can use it in a for statement: for a in aClass: do something
     
 5. "reference counting" is used for garbage collection.
     "mark-and-sweep" is used to clean up circular references(e.g. doubly-linked list)
@@ -76,6 +84,7 @@ Useful Link: http://docs.python.org/
     4) os module has method 'listdir', for example os.listdir('c:\\')
     5) glob module is another file search module, glob.glob(path), the path may contain wildcard.
         For example: glob.glob('c:\\music\\_singles\\*.mp3')
+    6)* dir(os) for more information
         
 12 Regular expressions:
     1) $: the words at the end of the string, "ROAD$" etc.
@@ -148,6 +157,13 @@ Useful Link: http://docs.python.org/
         the outermost scope (searched last) is the namespace containing built-in names
     3) the "global" can be used to to indicate the particular variable live in the global scope.
 
+15 sys module:
+    Command line arguments:
+        import sys
+        print sys.argv
+    error output:
+        sys.stderr.write("This is a error message")
+    
 references:
 http://www.diveintopython.net/
 http://docs.python.org/release/2.6.8/tutorial/index.html
