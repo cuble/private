@@ -1,5 +1,3 @@
-Useful Link: http://docs.python.org/
-
 1. keywords:
     functions: type, len, dir, help, getattr(obj, 'attr')
     module: sys, types, os, UserDict
@@ -84,7 +82,7 @@ Useful Link: http://docs.python.org/
     4) os module has method 'listdir', for example os.listdir('c:\\')
     5) glob module is another file search module, glob.glob(path), the path may contain wildcard.
         For example: glob.glob('c:\\music\\_singles\\*.mp3')
-    6)* dir(os) for more information
+    6)* dir(os) for more information: os.getcwd(), os.chdir()
         
 12 Regular expressions:
     1) $: the words at the end of the string, "ROAD$" etc.
