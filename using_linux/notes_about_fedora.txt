@@ -30,6 +30,11 @@
 	sudo make prefix=/usr/local install
    Get kernel code from: git.kernel.org. For example: git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 
+5. install pydev:
+	sudo yum install eclipse
+	sudo yum install eclipse-pydev
+	BTW, wxPython is for python GUI development
+
 5. diff and patch:
 	diff file1 file2: compare file1 and file2
 	diff -r dir1 dir2: compare all files in directory1 and directory2.
