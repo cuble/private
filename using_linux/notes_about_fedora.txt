@@ -40,7 +40,12 @@
 	Run "Input Method Selector"
 	Choose Ibus or fcitx(sudo yum install fcitx)
 
-7. VIM fileformat--DOS and UNIX--handling:
+7. Vi study
+    ident configuration in VIM:
+	>>,<< and use >,< in mode v
+        set shiftwidth, configure how many blankspace indented
+    VIM fileformat--DOS and UNIX--handling:
 	set fileformats
 	set fileformat
 	save the file after set the file format can change the type of the file
+
