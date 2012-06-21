@@ -1,8 +1,15 @@
 Python study
-  -* error handling
-  -* list folder and file operation
+  - error handling
+  - list folder and file operation
+  -* TDD on python
+    - unittest in python
+    - stub in python
+    -* mock in python
 
-* RNC196 CS7 startup performance testing
+RNC196 CS7 startup performance testing
+  - install package
+  - RNWPLAN download
+  -* run the macro to get the result
 
 Check if the file commit in Windows break the file link in linux in my dadapa projec  --Done
   - it broke the link
@@ -36,7 +43,7 @@ LiuHu's material for his Hukou issue  --Done
   - contract his Hukou contract. 
     - Dad done it.
 
-Hanzhou Developer Sumit: subforum clean code
+Hanzhou Developer Sumit: subforum clean code  --Done
   - Clean code Vs. Performance: 
     - meeting 5/22
   - Ut
@@ -55,7 +62,8 @@ Hanzhou Developer Sumit: subforum clean code
     - meeting room
     - presenter discussiong
     - material prepare
-  -* Meeting!
+  - Meeting!
+  - summarize
 
 My personal information for house buying:  --Done
   - Wangwang contact with GuanGuan to get the material list
@@ -74,10 +82,10 @@ DSK problem  --Done
   -* C implementation for the problem example
   -* C++ implementation for the problem example
 
-DMXSEE local Wiki Page  
+DMXSEE local Wiki Page   --Done
   - Update the wiki page HZDmxSEE
   - 2289714828
-  -* Share it with HZDMXSEE user group
+  - Share it with HZDMXSEE user group
 
 *Repair the IBM server
   - read the database out first
