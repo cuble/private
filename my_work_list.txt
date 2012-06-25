@@ -9,7 +9,9 @@ Python study
 RNC196 CS7 startup performance testing
   - install package
   - RNWPLAN download
-  -* run the macro to get the result
+  - run the macro to get the result
+    -* check the OTO error
+    -* continue the TOT running.
 
 Check if the file commit in Windows break the file link in linux in my dadapa projec  --Done
   - it broke the link
