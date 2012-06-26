@@ -1,3 +1,8 @@
+constent, enum in python
+get date time in python
+get system command output in python
+mock in python
+call C/C++ in python or vice verse
 1. Data Structure implemented with python
 2. namespace and scope in python
 3. reference or value when assign
