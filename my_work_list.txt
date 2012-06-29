@@ -11,7 +11,7 @@ RNC196 CS7 startup performance testing
   - RNWPLAN download
   - run the macro to get the result
     -* check the OTO error
-    -* continue the TOT running.
+    - continue the TOT running.
 
 Check if the file commit in Windows break the file link in linux in my dadapa projec  --Done
   - it broke the link
