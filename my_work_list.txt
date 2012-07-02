@@ -1,3 +1,7 @@
+YoYo English Competetion Preparation:
+  -* contact teacher for preparing card and notify her my choice
+  -* contact the organizer for music issue
+
 Python study
   - error handling
   - list folder and file operation
