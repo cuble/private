@@ -1,7 +1,7 @@
 Python study
   - error handling
   - list folder and file operation
-  -* TDD on python
+  - TDD on python
     - unittest in python
     - stub in python
     -* mock in python
@@ -14,7 +14,7 @@ RNC196 CS7 startup performance testing
     - continue the TOT running.
 
 Check if the file commit in Windows break the file link in linux in my dadapa projec  --Done
-  - it broke the link
+  - it broken the link
 
 SFU exceptional case reproduce  --Done
 
