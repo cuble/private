@@ -1,0 +1,11 @@
+http://blog.stevensanderson.com/2009/11/04/selective-unit-testing-costs-and-benefits/
+
+Study Notes:
+In summary, I¡¯m arguing that the benefit of unit testing is correlated with the non-obviousness of the code under test. 
+
+In summary, I¡¯m arguing that the cost of unit testing is correlated with the number of dependencies (concrete or interface) that a code unit has.
+
+.Complex code with few dependencies (top left). Typically this means self-contained algorithms for business rules or for things like sorting or parsing data. This cost-benefit argument goes strongly in favour of unit testing this code, because it¡¯s cheap to do and highly beneficial. 
+.Trivial code with many dependencies (bottom right). I¡¯ve labelled this quadrant ¡°coordinators¡±, because these code units tend to glue together and orchestrate interactions between other code units. This cost-benefit argument is in favour of not unit testing this code: it¡¯s expensive to do and yields little practical benefit. Your time is finite; spend it more effectively elsewhere.
+.Complex code with many dependencies (top right). This code is very expensive to write with unit tests, but too risky to write without. Usually you can sidestep this dilemma by decomposing the code into two parts: the complex logic (algorithm) and the bit that interacts with many dependencies (coordinator).
+.Trival code with few dependencies (bottom left). We needn¡¯t worry about this code. In cost-benefit terms, it doesn¡¯t matter whether you unit test it or not.
