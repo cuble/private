@@ -9,10 +9,37 @@
      note: -b means only basename match the pattern.
 
 2. find
+    find file by name
+     find . -name 'filename'
+    find file by name with case not sensitive
+     find -iname 'filename'
+    find fild size between 1M to 5M
+     find -size -5000k -size +1000k
+     '-and' is default when more than 1 condition given
+     other conditions: '!', '-or'
+    find file accessed in last 10 minutes(2 hours):
+	find -amin -10
+	find -atime -2
     find file changed in 5 minutes:
      find . -mmin -5
+    find file and execute ls -l to the result
+     find -name 'filename' -exec ls -l \{\} \;
 
 3. grep
-
+   find a string in files
+     grep 'string' -r .
+   find a word
+     grep -w 'string' -r .
+   find and ignore case
+     grep -i 'string' -r .
+   find lines not include 'string'
+     grep -v 'string' file
+   display name of all the hard disk
+     dmesg | egrep '(s|h)d[a-z]'
+   force grep output in color
+     grep --color 'string' -r .
 
 4. export and unset
+
+5. whereis cmd, which cmd
+

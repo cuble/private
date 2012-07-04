@@ -1,0 +1,27 @@
+function idx() {
+num=`expr $num + 1`
+echo $num. $*
+}
+
+num=0
+
+idx awk basic: "awk '/good/ {print \$3}' inventory"
+echo "syntax: awk 'pattern action' {file-name}"
+awk '/good/ {print $3}' inventory
+echo
+
+idx sed basic: "sed '/tea/s//milk/g' teaormilk>1"
+echo "syntax: sed {expression} {file}"
+sed '/tea/s//milk/g' teaormilk>1
+echo contents of teaormilk:
+cat teaormilk
+echo contents of 1:
+cat 1
+rm 1
+
+idx uniq and sort
+echo - \"uniq personame\" result:
+uniq personame
+echo - \"sort personame \| uniq\" result:
+sort personame | uniq
+
