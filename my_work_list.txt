@@ -1,10 +1,10 @@
-YoYo English Competetion Preparation:
+YoYo English Competetion Preparation:   ---Done
   - contact teacher for preparing card and notify her my choice
     - contacted the kid castle
     - waiting for the reply from teacher Mandy
   - contact the organizer for music issue
     - Sent the file to the organizer
-    -* waiting for the feedback
+    - waiting for the feedback
 
 Python study
   - error handling
