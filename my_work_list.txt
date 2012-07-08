@@ -1,3 +1,6 @@
+Question: what is the difference between stub and mock in Unit Test? What is a good style in verifying the implementation in UT? Can UT worked as example of the SUT?
+
+
 YoYo English Competetion Preparation:   ---Done
   - contact teacher for preparing card and notify her my choice
     - contacted the kid castle
