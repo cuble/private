@@ -1,3 +1,7 @@
+TDD can not solve your knowledge limite problem, if your implementation error because you don't have enough knowledge about your target requirement or APIs you are using, TDD can't find those problem either.     ----Inspiration from my printPlugin implementing, I find my mistake, which not recover stdout in case the check failed in teardown, very later.
+
+The first step to learn TDD is learn how to stubout your source code, so to make stub simple and strictly meanful is useful.   ----Inspiration from when doing python TDD with mox.
+
 project smell: if your FAQ is mainly about how to solve problems, it indicates project in trouble.  ---Inspiration from FCITX FAQ
 
 To lead: you should set a direction(your target), and then let others work freely on the direction. Share direction is better than share solutions.    ----Inspiration from a not good meeting facilitate.
