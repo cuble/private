@@ -3,12 +3,6 @@
 from index import *
 
 idx("Try run a shell comammand and get the output")
-print "do it by command"
-import commands 
-result = commands.getoutput('date')
-print "date is: ",
-print result
-
 print ""
 print "do it by subprocess"
 import subprocess as sub

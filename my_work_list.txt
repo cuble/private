@@ -10,12 +10,15 @@ YoYo English Competetion Preparation:   ---Done
     - waiting for the feedback
 
 Python study
-  - error handling
-  - list folder and file operation
+  - error handling      ---Done
+  - list folder and file operation  ---Done
   - TDD on python
-    - unittest in python
-    - stub in python
-    -* mock in python
+    - unittest in python    ---Done
+    - stub in python        ---Done
+    - mock in python        ---Done
+  _* with 
+  -* @
+  -* stub
 
 RNC196 CS7 startup performance testing
   - install package

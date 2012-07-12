@@ -1,0 +1,20 @@
+1. decorator syntax:
+    @dec2
+    @dec1
+    def f():
+        pass
+    means: f=dec2(dec1(f))
+
+    @dec(arg1, arg2)
+    def f():
+        pass
+    means: f=dec(arg1, arg2)(f)
+	
+    - a decorator should return a callable object which can act as a function when user using f later.
+
+A callable class should have a __call__ method. While, every function has a __call__ method by default.
+
+2. A dict can have a __missing__ method to handle KeyError problem
+   dic={}
+   dic['a'] will invoke default __missing__ which raise a KeyError
+
