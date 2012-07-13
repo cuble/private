@@ -1,3 +1,5 @@
+It's better to have 3 operation mode for a program: mouse mode, keyboard mode and auto run shell mode. Mouse mode for study phase, make the program easy to be accepted; keyboard mode is make it operated by some convinient shortcut after farmiliar with it; auto run mode is to make your program powerful by shell script.    ---Inspiration from may daily computer life
+
 TDD can not solve your knowledge limite problem, if your implementation error because you don't have enough knowledge about your target requirement or APIs you are using, TDD can't find those problem either.     ----Inspiration from my printPlugin implementing, I find my mistake, which not recover stdout in case the check failed in teardown, very later.
 
 The first step to learn TDD is learn how to stubout your source code, so to make stub simple and strictly meanful is useful.   ----Inspiration from when doing python TDD with mox.
