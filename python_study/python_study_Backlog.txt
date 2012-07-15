@@ -4,7 +4,10 @@ get system command output in python   ---done
 mock in python   ---done
 decorator(@), with syntax    ---done
 2. namespace and scope in python    ---ongoing
+globals, locals, getattr, __builtins__, __module__, property, bound/unbound
 3. reference or value when assign
+  - when assign to a module variable, it's reference 
+  - when assign to a class variable, it's reference and bound it to the class or instance
 4. function programing
 call C/C++ in python or vice verse
 1. Data Structure implemented with python
