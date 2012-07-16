@@ -4,7 +4,7 @@ get system command output in python   ---done
 mock in python   ---done
 decorator(@), with syntax    ---done
 2. namespace and scope in python    ---ongoing
-globals, locals, getattr, __builtins__, __module__, property, bound/unbound
+globals, locals, getattr, __builtins__, __module__, property, bound/unbound, generator
 3. reference or value when assign
   - when assign to a module variable, it's reference 
   - when assign to a class variable, it's reference and bound it to the class or instance
