@@ -28,3 +28,4 @@
     finaly:
         contextman.__exit__(exceptionType, value, traceback) 
     
+    - if __exit__ return True, the exception will be swallowed, otherwise the exception if have will still be raised.    
