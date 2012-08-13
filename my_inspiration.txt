@@ -1,3 +1,5 @@
+A good leader knows the situation and can build the target. A best leader can even initiate the target implementation.       ---Inspiration from thinking about NSN situation.
+
 A man must have a belief. Most time, it will be the reason of your success.     ---Inspiration from a North Korea athlete win a Chinese World Championship Champion in 2012 London Olympic Game's Weightlifting Competetion.
 
 It's better to have 3 operation mode for a program: mouse mode, keyboard mode and auto run shell mode. Mouse mode for study phase, make the program easy to be accepted; keyboard mode is make it operated by some convinient shortcut after farmiliar with it; auto run mode is to make your program powerful by shell script.    ---Inspiration from may daily computer life
