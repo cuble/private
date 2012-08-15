@@ -32,9 +32,9 @@ Check if the file commit in Windows break the file link in linux in my dadapa pr
 
 SFU exceptional case reproduce  --Done
 
-Register to AIX training
+Register to AIX training    --Done
   - Registered
-  -* go classroom July
+  - go classroom July
 
 Hit macro of RU30 to RU40 upgrade  --Done
   - Contacting Zhang Jianfei for Shenzhen contact person.
