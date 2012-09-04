@@ -1,3 +1,6 @@
+http://aws.amazon.com/free/
+http://edvanbeinum.com/run-your-own-git-server-with-gitolite-and-amazon-ec2
+
 Question: what is the difference between stub and mock in Unit Test? What is a good style in verifying the implementation in UT? Can UT worked as example of the SUT?
 
 

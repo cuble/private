@@ -1,3 +1,7 @@
+some keyword: 
+  property 
+  supper  --done
+  lambda
 constent, enum in python  ---done
 get date time in python   ---done
 get system command output in python   ---done
