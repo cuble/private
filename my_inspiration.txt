@@ -1,3 +1,5 @@
+The structure of the organization is not the key of productivity. The suitable people in the suitable position with correct responsibility is the key of the organization's productivity.     ---Inspiration from thinking about current IPA Agile Organization Structure.
+
 Installation and upgrade is also a important user feature.     ---Inspiration from user complain about DMXSEE installation folder.
 
 A good leader knows the situation and can build the target. A best leader can even initiate the target implementation.       ---Inspiration from thinking about NSN situation.
