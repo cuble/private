@@ -1,17 +1,21 @@
+Study wxPython license
+
 Physical Examination
 
 Buy house:
-  - The politics of governer
-  - The reposit in my house fun account
-  - Money
-  - Bank politics 
+  - The politics of governer      ---done
+  - The reposit in my house fun account    ----done
+  - Money             ---done
+  - Bank politics     ---done
   - The politics of the Agent
   - Preparing Material
     - Hukou First Page   ---done
+        -并提交家庭成员身份证明、婚姻证明、户籍证明、购房人签字确认的《购房人家庭成员及名下住房情况申报表》
     - study others
 
 YoYo's Weekend party
-  - determine the contents of the party
+  - determine the contents of the party     ---Done
+  - Discuss about how to prepare it
 
 Recruit for Leyoyo  
   
