@@ -1,3 +1,5 @@
+Make a software twice or more times will improve the quality of the software.    ---Inspiration from working on my backlog_editor project
+
 The structure of the organization is not the key of productivity. The suitable people in the suitable position with correct responsibility is the key of the organization's productivity.     ---Inspiration from thinking about current IPA Agile Organization Structure.
 
 Installation and upgrade is also a important user feature.     ---Inspiration from user complain about DMXSEE installation folder.
