@@ -1,0 +1,19 @@
+import paramiko
+ssh = paramiko.SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh.connect('127.0.0.1', username='jesse', password='lol')
+
+*normal command
+stdin, stdout, stderr = ssh.exec_command("uptime")
+data = stdout.readlines()
+
+*interactively command
+stdin, stdout, stderr = ssh.exec_command("sudo dmesg")
+stdin.write('lol\n')
+stdin.flush()
+data = stdout.read.splitlines()
+
+*file get/put
+ftp=ssh.open_sftp()
+ftp.get('localfile.py')
+ftp.close()
