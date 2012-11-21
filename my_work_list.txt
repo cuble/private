@@ -1,6 +1,10 @@
+10 programming examples in python
+  - tool to generate html format mail from example
+  - examples
+
 Study wxPython license
 
-Physical Examination
+Physical Examination   ---done
 
 Buy house:
   - The politics of governer      ---done
@@ -17,9 +21,9 @@ YoYo's Weekend party
   - determine the contents of the party     ---Done
   - Discuss about how to prepare it
 
-Recruit for Leyoyo  
+Recruit for Leyoyo     --done
   
-B9924 Contact List
+B9924 Contact List    ---done
 
 Buy Leyoyo trade mark
 
