@@ -1,3 +1,11 @@
+Release a magzine about software engineering in a company, release the engineering related information ongoing in the company. It's a platform for people to share his/her achievements, it's also a platform to provide the things running state overview to our leadship team if he/she read it.   ---Inspiration when I want to write something I think it's valuable for the company. And the innovation show in NSN.
+  1. Board of the magazine.
+  2. compose the magazine.
+  3. mail group of each article and discussion result on website.
+     a. send mail to the group will register to the group automatically.
+     b. provide unregister interface.
+     c. restriction about mailsize.
+
 Make a software twice or more times will improve the quality of the software.    ---Inspiration from working on my backlog_editor project
 
 The structure of the organization is not the key of productivity. The suitable people in the suitable position with correct responsibility is the key of the organization's productivity.     ---Inspiration from thinking about current IPA Agile Organization Structure.
