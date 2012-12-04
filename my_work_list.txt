@@ -1,8 +1,21 @@
-10 programming examples in python
-  - tool to generate html format mail from example
-  - examples
+Family Issues
+  - Buy iPad
+  - Interior design
+    - Find an interior designer
+    - check the house
 
-Study wxPython license
+Technical work
+  - 10 programming examples in python
+    - tool to generate html format mail from example
+    - examples
+
+  - Study wxPython license
+  - pyide
+    - project management user interface
+    - github interface
+      - remove project
+    - git operation without install git
+      - libgit2 and pygit2
 
 Physical Examination   ---done
 
@@ -12,10 +25,13 @@ Buy house:
   - Money             ---done
   - Bank politics     ---done
   - The politics of the Agent
-  - Preparing Material
+  - Preparing Material   ---done
     - Hukou First Page   ---done
         -并提交家庭成员身份证明、婚姻证明、户籍证明、购房人签字确认的《购房人家庭成员及名下住房情况申报表》
-    - study others
+    - study others 
+  - done the deal
+    - loan   --done
+    - pay tax and done the transaction
 
 YoYo's Weekend party
   - determine the contents of the party     ---Done
