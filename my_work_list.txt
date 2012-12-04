@@ -16,6 +16,7 @@ Technical work
       - remove project
     - git operation without install git
       - libgit2 and pygit2
+    - Proxy settings in python
 
 Physical Examination   ---done
 
