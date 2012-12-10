@@ -1,3 +1,5 @@
+人最大的痛苦就是明知做任何决定都是错的还要不断的去做决定；人最大的快乐就是在做决定的时候知道不管做什么决定都是错的。   －－随想
+
 Release a magzine about software engineering in a company, release the engineering related information ongoing in the company. It's a platform for people to share his/her achievements, it's also a platform to provide the things running state overview to our leadship team if he/she read it.   ---Inspiration when I want to write something I think it's valuable for the company. And the innovation show in NSN.
   1. Board of the magazine.
   2. compose the magazine.

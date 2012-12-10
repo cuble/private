@@ -17,6 +17,8 @@ Technical work
     - git operation without install git
       - libgit2 and pygit2
     - Proxy settings in python
+      - JSON is a java data interface definition, json is the python standard module for it.
+      
 
 Physical Examination   ---done
 
