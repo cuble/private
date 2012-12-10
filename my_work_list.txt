@@ -11,12 +11,13 @@ Technical work
 
   - Study wxPython license
   - pyide
+    - Roadmap of pyide
     - project management user interface
-    - github interface
+    - github interface   --done
       - remove project
     - git operation without install git
       - libgit2 and pygit2
-    - Proxy settings in python
+    - Proxy settings in python   ---done
       - JSON is a java data interface definition, json is the python standard module for it.
       
 
