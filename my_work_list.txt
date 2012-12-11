@@ -1,8 +1,12 @@
 Family Issues
   - Buy iPad
+  - Buy Kindle
   - Interior design
     - Find an interior designer
     - check the house
+  - Design of GuanGuan's co-operation mode with Fujian Factory
+  - Design of GuanGuan's co-operation mode with Aunt
+  - Check work mode of Wangdian Guanjia Server online
 
 Technical work
   - 10 programming examples in python
