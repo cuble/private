@@ -1,3 +1,5 @@
+Make a OS has a function named 'do it', make it do something need a little bit time, and you are caring about the result of the operation.       --Inspiration from doing HMS upgrade test.
+
 You are important just because you can solve some others problem   --Inspiration from thinking about making progress.
 
 Make wise restrictions, then change from administrate to support and guide is the way to manage        --Inspiration from support GuanGuan find her way.
