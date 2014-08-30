@@ -54,3 +54,5 @@
 	set fileformat
 	save the file after set the file format can change the type of the file
 
+8. change the priority of vmmouse by change the number prefix:
+    /usr/lib/udev/rules.d/59-xorg-vmmouse.rules
