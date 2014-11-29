@@ -1,0 +1,32 @@
+sudo yum install git
+sudo yum -y install python-setuptools
+sudo easy_install pip
+sudo pip install shadowsocks
+
+sudo yum groupinstall "development tools"
+
+install adobe flash player
+x86_64 (64-bit)
+
+su -c 'yum -y install http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm'
+
+x86 (32-bit)
+
+su -c 'yum -y install http://linuxdownload.adobe.com/adobe-release/adobe-release-i386-1.0-1.noarch.rpm'
+
+Then install:
+su
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+yum -y install flash-plugin 
+exit
+
+Clean yum:
+yum clean all && yum makecache && yum update
+
+Start sshd:
+start it first: sudo systemctl start sshd.service
+configure enable when boot: sudo systemctl enable sshd.service
+
+
+
+
