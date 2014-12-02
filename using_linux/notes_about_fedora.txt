@@ -56,3 +56,16 @@
 
 8. change the priority of vmmouse by change the number prefix:
     /usr/lib/udev/rules.d/59-xorg-vmmouse.rules
+
+9. change file encoding
+	iconv -f UTF-8 -t ISO-8859-1 in.txt > out.txt
+	-f ENCODING  the encoding of the input
+	-t ENCODING  the encoding of the output
+	
+	windows Chinese encoding: GB2312
+
+10. fix gedit GB2312 cannot show problem:
+	gsettings get org.gnome.gedit.preferences.encodings auto-detected "['GB2312', 'UTF-8', 'GB18030', 'GBK', 'BIG5', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+	gsettings set org.gnome.gedit.preferences.encodings shown-in-menu "['UTF-8', 'GB18030', 'GB2312', 'GBK', 'BIG5', 'CURRENT', 'UTF-16']"
+
+
