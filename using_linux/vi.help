@@ -202,6 +202,15 @@ x、d$、dd——删除一个字符、删除光标所在处到行尾的所有字
 How to nevogate "()" pair: %
 
 
+Work with multip files:
+Open: tabe filename
+Next file: tabn
+Previous file: tabp
 
+To set shortcut:
+    list all shortcuts: map
+    set shortcut to F7: map <F7> :tabp<CR>
+    set shortcut to ctrl+o: map <C-O> :tabe 
+    insert those command to ~/.vimrc to make the shortcut set permanent
 
 
