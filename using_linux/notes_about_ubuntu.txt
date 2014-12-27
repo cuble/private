@@ -1,0 +1,14 @@
+1. check ubuntu version: 
+    lsb_release -a
+
+2. check installed packages
+    dpkg --get-selections | grep deinstall
+   check mysql version:
+    dpkg --get-selections | grep sql-server
+
+3. check run level
+    runlevel
+
+4. check services running
+    service --status-all
+

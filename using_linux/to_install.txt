@@ -1,3 +1,29 @@
+Install vlc media player:
+    $> su -
+    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+    #> yum install vlc
+    #> yum install mozilla-vlc (optional)
+
+    For Rawhide: rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm 
+
+Install KDE: 
+    $ sudo yum groupinfo "KDE Software Compilation"
+
+Install chrome:
+	Create a file: /etc/yum.repos.d/google.repo
+		[google-chrome-32]
+		name=google-chrome - 32-bit
+		baseurl=http://dl.google.com/linux/chrome/rpm/stable/i386
+		enable=1
+		gpgcheck=1
+		gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+
+
+	For 64-bit, replace the 32 to 64, and the baseurl is: http://dl.google.com/linux/chrome/rpm/stable/x86_64
+
+	Then install via yum: sudo yum install google-chrome-stable
+
+
 sudo yum install git
 sudo yum -y install python-setuptools
 sudo easy_install pip
